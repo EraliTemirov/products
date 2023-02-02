@@ -1,0 +1,170 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.dark{
+
+  height: 100vh;
+  background-color: black;
+  color: wheat;
+  font-size: 25px;
+}
+.light{
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+.toggle-btn{
+  width: 200px;
+  height: 35px;
+  font-size: 25px;
+ margin-left: 80%;
+ border: 2px solid blue;
+ border-radius: 7px;
+ letter-spacing: 1.2rem;
+}
+.kirish-h2{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.loading{
+  width: 500px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.container{
+  width: 1400;
+  margin: 0 auto;
+  margin-left: 25px;
+}
+.cards{
+  width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:end ;
+  margin: 0;
+  padding: 5%;
+  border: 1px solid rgb(119, 0, 0);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.btn{
+  width: 100%;
+  height: 30px;
+  font-size: 22px;
+  border: 2px solid gray;
+  border-radius:7px;
+  background-color: rgb(49, 230, 49);
+  
+}
+.about-h2{
+  text-align: center;
+  font-size: 35px;
+}
+.inc-btn{
+  width: 60px;
+  height: 25px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.dec-btn{
+  padding: 0;
+  width: 60px;
+  height: 25px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.nechta{
+  font-size: 22px;
+    color: blue;
+}
+.title{
+  width: 100%;
+  display: block;
+}
+.category{
+  width: 100%;
+  display: block;
+}
+.price{
+  display: block;
+  width: 100%;
+}
+
+.more-card{
+  display: flex;
+  justify-content: space-around;
+}
+.more-img{
+  width: 40%;
+}
+.more-card-text{
+  margin-top: 3%;
+  width: 600px;
+  
+}
+.more-h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.more-description{
+  font-size: 1.6rem;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+.des-span{
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.more-category{
+  font-size: 22px;
+}
+.more-price{
+  font-size: 22px;
+}
+.fon{
+  background-color: greenyellow;
+  position: sticky;
+  top: 0;
+}
+.header{
+  padding: 15px;
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-bottom: 5px;
+
+
+}
+
+.link-home-green{
+  text-decoration: none;
+  color: rgb(0, 84, 0);
+  font-size: 30px;
+}
+.home-link{
+    text-decoration: none;
+    font-size: 30px;
+  
+}
+Link{
+  text-decoration: none;
+}
