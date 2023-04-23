@@ -1,5 +1,4 @@
 import React from "react";
-import Home from "./components/Home";
 import About from "./components/About";
 import More from "./components/More";
 import { Route, Routes } from "react-router-dom";
@@ -9,8 +8,7 @@ function App() {
     <div>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<About />} />
         <Route path="/about/:productId" element={<More />} />
       </Routes>
     </div>
